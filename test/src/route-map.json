@@ -1,0 +1,25 @@
+{
+  "/": {
+    "filePath": "index.tsx",
+    "children": [
+      "/test"
+    ]
+  },
+  "/test": {
+    "filePath": "test/__layout.tsx",
+    "parent": "/",
+    "children": [
+      "/test/:id"
+    ]
+  },
+  "/__error": {
+    "filePath": "__error.tsx"
+  },
+  "/test/:id": {
+    "filePath": "test/[id].index.tsx",
+    "parent": "/test"
+  },
+  "/__not_found": {
+    "filePath": "__not_found.tsx"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "": {},
+  "/test": {},
+  "/test/:id": {
+    "head": {},
+    "sitemap": {}
+  },
+  "/": {
+    "head": {},
+    "sitemap": {}
+  },
+  "/__error": {},
+  "/__not_found": {}
+}

@@ -1,0 +1,15 @@
+{
+  "name": "wouter-fs",
+  "version": "0.0.1",
+  "description": "WouterFS is an advanced route generator based on the file system, designed to simplify the creation of complex routing structures in React applications using the Wouter library.",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^22.15.29"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
